@@ -39,6 +39,6 @@ fn startup(
 
     // Character load
     command.spawn(SceneRoot(asset_server.load(
-        GltfAssetLabel::Scene(0).from_asset("https://assets.choiyunseok.com/models/base_character_girl.glb"),
+        GltfAssetLabel::Scene(0).from_asset("base_character_girl.glb"),
     )));
 }
