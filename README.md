@@ -1,6 +1,6 @@
 # Issued
 
-## 1. (main branch)
+## 1. bevy_web_assets, s3 CDN load failed (main branch)
 It is stored in S3 CDN using the bevy_web_assets library.
 
 https://assets.choiyunseok.com/models/base_character_girl.glb 
@@ -16,9 +16,9 @@ Head byte length must be less than 8kb.
 When you access via browser, the file will be downloaded.
 
 
-## 2. (assets_server Branch) assets_server
+## 2. when exeute browser wasm build html, local assets_server  (assets_server Branch)
 
-Loading the model from the S3 CDN fails every time, and as a workaround, when loading the model locally from the assets folder and running viewer.html after building, it works normally, but.
+Loading the model from the S3 CDN fails every time, and as a workaround, when loading the model static from the assets folder and running viewer.html after building, it works normally, but.
 
 Upload the entire built file to s3 CDN, https://wasm.choiyunseok.com/avatar/viewer.html 
 The model does not load when connected to
