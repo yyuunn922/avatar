@@ -16,7 +16,7 @@ Head byte length must be less than 8kb.
 When you access via browser, the file will be downloaded.
 
 
-## 2. when exeute browser wasm build html, local assets_server  (assets_server Branch)
+## 2. Static model cannot be loaded from wasm when deployed to S3 cdn  (assets_server Branch)
 
 Loading the model from the S3 CDN fails every time, and as a workaround, when loading the model static from the assets folder and running viewer.html after building, it works normally, but.
 
